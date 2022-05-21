@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation3"
+    app:startDestination="@id/oneFragment">
+    <fragment
+        android:id="@+id/oneFragment"
+        android:name="com.example.bottomnavinsidefragment.ui.secondNavigation.OneFragment"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_one" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.bottomnavinsidefragment.ui.secondNavigation.twoFragment"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_two" />
+    <fragment
+        android:id="@+id/albumsFragment"
+        android:name="com.example.bottomnavinsidefragment.ui.secondNavigation.treeFragment"
+        android:label="fragment_tree"
+        tools:layout="@layout/fragment_tree" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.bottomnavinsidefragment.ui.secondNavigation.FourFragment"
+        android:label="fragment_four"
+        tools:layout="@layout/fragment_four" />
+
+</navigation>
